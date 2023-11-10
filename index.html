@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--codificación de caracteres /acentos-->
+    <meta charset="UTF-8">
+    <!--Viewport Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no">
+    <title>PRIMERA PWA</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+    <!--Meta etiquetas-->
+    <!--Hojas de estilo-->
+    <!--Color de la aplicación-->
+    <meta name="theme-color" content="#FB314E"/>
+    <!--Indicar Optimización para movil-->
+    <meta name="MobileOptimized" content="width"/>
+
+    <!--Para que el navegador sepa que es una PWA-->
+    <meta name="HandheldFriendly" content="true"/>
+
+    <!--Meta etiqueta PWA para Apple-->
+    <meta name="apple-mobile-web.app-capable" content="yes"/>
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <!--icono de la aplicación-->
+    <link rel="apple-touch-icon" href="img/favicon.png"/>
+
+    <link rel="apple-touche-startup-image" href="img/favicon.png"/>
+    <!-- jquery-->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--Configuración general de la PWA Manifiesto-->
+
+    <link rel="manifest" href="manifest.json"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header id="main-header"> <!--Inicio header-->
+        <div class="container">   
+            <div id="logo">
+                <h1>Blanca E. Chavarría</h1>
+            </div>                   
+            <div class="container">
+                <div class="menu">
+                    <ul >
+                        <li><a href="">Inicio</a></li>
+                        <li> <a href="">Servicios</a></li>
+                        <li><a href="">Videos</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul> 
+                </div> <!--end menu-->          
+            </div>
+        </div><!--end container-->
+        
+    </header><!--Fin header-->
+    <div class="clearfix"></div>
+    <div id="slider">
+        <div id="container">
+            <h1>Profesor UTCH</h1>
+        </div>
+    </div>
+    
+        <div class="services">
+            <div class="container">
+                <h2 class="subheader">Servicios</h2>
+                
+                    <div class="service">
+                        <img src="img/1.png" alt="">
+                        <h3>Desarrollo Web</h3>
+                        <p>Texto</p>
+                    </div>
+            
+                    <div class="service">
+                        <img src="img/2.png" alt="">
+                        <h3>Diseño Web</h3>
+                        <p>Texto</p>
+                    </div>            
+            
+                    <div class="service">
+                    
+                        <img src="img/3.png" alt="">
+                        <h3>Backend</h3>
+                        <p>Texto</p>
+                    </div>  
+            </div> <!--End Container-->       
+        </div><!--End servicios-->
+        <div class="clearfix"></div>
+        <div id="videos">
+            <div class="container">
+                <h2 class="subheader">Videos</h2>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nOjxVmN-obU?si=coLzvFGtkqhFRGeH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                    </iframe>
+                    <p>
+                        Parrafo del video
+                    </p>
+
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nOjxVmN-obU?si=coLzvFGtkqhFRGeH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                    </iframe>
+                    <p>
+                        Parrafo del video
+                    </p>
+
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nOjxVmN-obU?si=coLzvFGtkqhFRGeH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                    </iframe>
+                    <p>
+                        Parrafo del video
+                    </p>
+
+                </div>
+
+
+
+            </div>
+
+        </div> <!--end videos-->
+        <div class="clearfix"></div>
+        <footer id="footer">
+            <div class="container">
+                <h2 class="subheader">Contacto</h2>
+                <p>Enviame mensaje por mis redes socialese </p>
+                <ul id="networks">
+                    <li>
+                        <a href="">
+                            <img src="img/twitter.png" alt="" class="img">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/facebook.png" alt="" class="img">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/instagram.png" alt="" class="img">
+                        </a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+</body>
+</html>
